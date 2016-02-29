@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/james/Documents/Boxes/locality-server'
-let g:netrw_dirhist_2='/Users/james/Documents/Boxes/locality-server/roles'
-let g:netrw_dirhist_3='/Users/james/Documents/Boxes/locality-server/roles/case-server'
-let g:netrw_dirhist_4='/Users/james/Documents/Boxes/locality-server/roles/case-server/tasks'
-let g:netrw_dirhist_5='/Users/james/Documents/Boxes/locality-server/roles/case-server/tasks/deps'
-let g:netrw_dirhist_6='/Users/james/Documents/Boxes/slack-estimate'
