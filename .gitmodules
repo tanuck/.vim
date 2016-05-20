@@ -18,4 +18,10 @@
     url = https://github.com/fatih/vim-go.git
 [submodule "bundle/vim-systemd-syntax"]
     path = bundle/vim-systemd-syntax
-    url = https://github.com/Matt-Deacalion/vim-systemd-syntax
+    url = https://github.com/Matt-Deacalion/vim-systemd-syntax.git
+[submodule "bundle/vim-coffee-script"]
+    path = bundle/vim-coffee-script
+    url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "bundle/yajs.vim"]
+    path = bundle/yajs.vim
+    url = https://github.com/othree/yajs.vim.git
