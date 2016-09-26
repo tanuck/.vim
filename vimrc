@@ -33,3 +33,7 @@ au BufNewFile,BufRead *.yml,*.yaml setlocal expandtab ts=2 sw=2 sts=2
 au BufNewFile,BufRead *.js,*.coffee setlocal expandtab ts=2 sw=2 sts=2
 
 au FileType make setlocal noexpandtab
+
+let g:hcl_fmt_autosave = 0
+let g:tf_fmt_autosave = 0
+let g:nomad_fmt_autosave = 0
