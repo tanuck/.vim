@@ -28,3 +28,6 @@
 [submodule "bundle/vim-hclfmt"]
 	path = bundle/vim-hclfmt
 	url = https://github.com/fatih/vim-hclfmt.git
+[submodule "bundle/typescript-vim"]
+	path = bundle/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
