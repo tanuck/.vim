@@ -32,6 +32,7 @@ au BufNewFile,BufRead *.go setlocal noet ts=4 sw=4 sts=4
 au BufNewFile,BufRead *.yml,*.yaml setlocal expandtab ts=2 sw=2 sts=2
 au BufNewFile,BufRead *.js,*.coffee setlocal expandtab ts=2 sw=2 sts=2
 au BufNewFile,BufRead *.tf setlocal expandtab ts=2 sw=2 sts=2
+au BufNewFile,BufRead *.json setlocal expandtab ts=2 sw=2 sts=2
 
 au FileType make setlocal noexpandtab
 
