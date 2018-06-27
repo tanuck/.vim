@@ -1,11 +1,10 @@
 execute pathogen#infect()
 set number
 
-set t_Co=256
-syntax on
-colorscheme molokai
-let g:molokai_original=1
-let g:rehash256=1
+syntax enable
+"set background=dark
+"let g:solarized_termcolors=256
+"colorscheme solarized
 
 set tabstop=4
 set shiftwidth=4
@@ -30,9 +29,10 @@ let g:airline#extensions#branch#enabled = 1
 
 au BufNewFile,BufRead *.go setlocal noet ts=4 sw=4 sts=4
 au BufNewFile,BufRead *.yml,*.yaml setlocal expandtab ts=2 sw=2 sts=2
-au BufNewFile,BufRead *.js,*.ts,*.coffee setlocal expandtab ts=2 sw=2 sts=2
+au BufNewFile,BufRead *.js,*.tsx,*.ts,*.coffee setlocal expandtab ts=2 sw=2 sts=2
 au BufNewFile,BufRead *.tf setlocal expandtab ts=2 sw=2 sts=2
 au BufNewFile,BufRead *.json setlocal expandtab ts=2 sw=2 sts=2
+au BufNewFile,BufRead *.sh setlocal expandtab ts=2 sw=2 sts=2
 
 au FileType make setlocal noexpandtab
 
